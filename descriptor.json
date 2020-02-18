@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "00923008-9f37-405f-9ab5-f0c5a1db07f3",
+    "PackageVersion": "7.8.0",
+    "Name": "DevTraining",
+    "ModifiedOnUtc": "\/Date(1582042102000)\/",
+    "Maintainer": "Customer",
+    "Description": "This is Description",
+    "DependsOn": [
+      {
+        "UId": "fe1effeb-74f2-42c5-b5e1-dfe0313b86bf",
+        "PackageVersion": "7.8.0",
+        "Name": "Studio"
+      }
+    ]
+  }
+}
