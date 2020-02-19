@@ -15,12 +15,32 @@ namespace GuidedLearningClio.Files.cs.el
         private static readonly ILog _log = LogManager.GetLogger("DevTrainingLogger");
         public override void OnSaved(object sender, EntityAfterEventArgs e)
         {
-            base.OnSaved(sender, e);
+            //base.OnSaved(sender, e);
+            //Entity entity = (Entity)sender;
+            ////UserConnection userConnection = entity.UserConnection;
+
+            //string message = $"TEST: {entity.GetTypedColumnValue<string>("Name")}";
+            ////_log.Info(message);
+            //entity.SetColumnValue("Name", message);
+            //entity.Save();
+
+        }
+
+        public override void OnSaving(object sender, EntityBeforeEventArgs e)
+        {
+            base.OnSaving(sender, e);
             Entity entity = (Entity)sender;
             //UserConnection userConnection = entity.UserConnection;
 
-            string message = $"Changing name for {entity.GetTypedColumnValue<string>("Name")}";
-            _log.Info(message);
+            string oldName = entity.GetTypedOldColumnValue<string>("Name");
+            string newName = entity.GetTypedColumnValue<string>("Name");
+            string vName = $"{oldName} --> {newName}";
+
+            //_log.Info(message);
+            entity.SetColumnValue("Name", vName);
+            entity.Save();
+
         }
+
     }
 }
