@@ -18,7 +18,7 @@ namespace DevTraining.Files.cs.EL
 
         private static readonly ILog _log = LogManager.GetLogger("DevTrainingLogger");
         private static readonly Guid activityType = Guid.Parse("FBE0ACDC-CFC0-DF11-B00F-001D60E938C6");//Task
-        private static readonly Guid activityCategory = Guid.Parse("A6762A4A-D612-42FC-A322-1F619C4BC581"); //Out of the office
+        private static readonly Guid activityCategory = Guid.Parse("01EADF60-9EC9-4BDF-A685-F3CD4248948B"); //Out of the office
         private static readonly Guid activityStatusNotStarted = Guid.Parse("384D4B84-58E6-DF11-971B-001D60E938C6"); // Not Started Status
         private static readonly Guid activityStatusInProgress = Guid.Parse("394D4B84-58E6-DF11-971B-001D60E938C6"); // INProgress status
         
