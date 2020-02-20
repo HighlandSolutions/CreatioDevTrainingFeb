@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "3cc46044-502c-4b59-acf9-e8c8f629eaba",
+    "Name": "ExpenseReport1Page",
+    "ModifiedOnUtc": "\/Date(1582219498000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page: \"Expense Report\""
+  }
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Expense Report Details" />
+			<Item Name="Columns.Currency.Caption" Value="Currency" />
+			<Item Name="Columns.Description.Caption" Value="Description" />
+			<Item Name="Columns.ExpenseReport.Caption" Value="Expense Report" />
+			<Item Name="Columns.FAmount.Caption" Value="F Amount" />
+			<Item Name="Columns.FxRate.Caption" Value="FX Rate" />
+			<Item Name="Columns.HAmount.Caption" Value="H AMount" />
+		</Items>
+	</Group>
+</Resources>
