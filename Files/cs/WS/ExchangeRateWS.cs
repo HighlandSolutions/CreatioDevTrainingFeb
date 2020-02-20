@@ -12,7 +12,7 @@ namespace DevTraining.Files.cs.WS
     public class ExchangeRateWS : BaseService
     {
         [OperationContract]
-        [WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json,
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json,
             BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json)]
         public BankResult ExecuteGet(int bankId, string date, string currency)
         {
